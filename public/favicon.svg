@@ -1,0 +1,37 @@
+<svg id="Слой_1" data-name="Слой 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 0 0" width="200px" height="200px">
+	<defs>
+		<style>
+			.cls-1 {
+			fill: none;
+			}
+			.cls-2,
+			.cls-3,
+			.cls-4 {
+			fill: #040509;
+			}
+			.cls-3 {
+			font-size: 58.15px;
+			letter-spacing: 0.14em;
+			}
+			.cls-3,
+			.cls-4 {
+			font-family: ArialNarrow, Arial;
+			}
+			.cls-4 {
+			font-size: 13.96px;
+			letter-spacing: 0.14em;
+			}
+		</style>
+	</defs>
+	<!-- <rect class="cls-1 rotate" width="687.86" height="351">
+	</rect> -->
+	<path class="cls-2 svg-logo" d="M451.25,353.11a143.22,143.22,0,0,1,0-127.8h0a23,23,0,1,0-41.19,0h0a143.2,143.2,0,0,1,9.71,102.6,254.09,254.09,0,0,1-85.38-120.2h0a23,23,0,1,0-42.43,17.59h0a143.22,143.22,0,0,1,0,127.8h0a23,23,0,1,0,41.19,0h0a143.2,143.2,0,0,1-9.7-102.6,254.33,254.33,0,0,1,85.38,120.2h0a23,23,0,1,0,42.42-17.59Z" transform="translate(-180.59 -146.43)">
+	</path>
+	<!-- <text class="cls-3 svg-logo" transform="translate(320.83 180.44) scale(1.07 1)">
+		NIСKWEB
+	</text> -->
+	<text x="-180.59" y="-146.43">
+	</text>
+	<text class="cls-4" transform="translate(424.44 235.71) scale(1.07 1)">
+	</text>
+</svg>

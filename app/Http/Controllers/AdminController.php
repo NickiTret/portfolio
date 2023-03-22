@@ -7,11 +7,7 @@ use Inertia\Inertia;
 
 class AdminController extends Controller
 {
-    public function index()
-    {
-        return Inertia::render('Admin/Index', [
-            'title' => 'Admin Page',
-            'url' => '/'
-        ]);
+    public function index() {
+        return view('main.index');
     }
 }

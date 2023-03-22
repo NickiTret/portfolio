@@ -2,11 +2,11 @@
   <div class="page-loader">
     <div class="loader">Loading...</div>
   </div>
-  <Header />
+  <Header :links="links" />
   <div class="main">
     <slot />
   </div>
-  <Footer />
+  <Footer :socials="socials"/>
 </template>
 
 <script>
@@ -17,6 +17,10 @@ export default {
   components: {
     Header,
     Footer,
+  },
+  props: {
+    links: Array,
+    socials: Array,
   },
 
 };

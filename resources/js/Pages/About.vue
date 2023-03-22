@@ -1,263 +1,159 @@
 <template>
+  <Head>
+    <title>NickWeb | {{ title }}</title>
+  </Head>
   <layout>
-    <section
-      class="module bg-dark-60 about-page-header"
-      data-background="assets/images/about_bg.jpg"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-sm-offset-3">
-            <h2 class="module-title font-alt">About</h2>
-            <div class="module-subtitle font-serif">
-              A wonderful serenity has taken possession of my entire soul, like
-              these sweet mornings of spring which I enjoy with my whole heart.
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <FirstScreen :page="page" />
+
     <section class="module">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
-            <h5 class="font-alt">We’re a digital creative agency</h5>
-            <br />
-            <p>
-              The European languages are members of the same family. Their
-              separate existence is a myth. For science, music, sport, etc,
-              Europe uses the same vocabulary. The languages only differ in
-              their grammar, their pronunciation and their most common words.
-            </p>
-            <p>
-              The European languages are members of the same family. Their
-              separate existence is a myth. For science, music, sport, etc,
-              Europe uses the same vocabulary.
-            </p>
+            <h2 class="product-title font-alt">Обо мне</h2>
           </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <ul>
+              <li>
+                Образование средне&nbsp;&mdash; специальное, специальность
+                веб-дизайн, проходил курсы повышения квалификации,
+                и&nbsp;проходил обучение в&nbsp;Skillbox курс
+                &laquo;Frontend-разработчик&raquo;
+              </li>
+              <li>
+                Ответственно подхожу к&nbsp;задачам и&nbsp;их&nbsp;решениям,
+                проактивен
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://github.com/NickiTret?tab=repositories"
+                >
+                  GitHub</a
+                >
+                здесь примеры моего кода
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <h2 class="product-title font-alt">Stack технологии</h2>
+          </div>
+        </div>
+        <div class="row">
           <div class="col-sm-6">
             <h6 class="font-alt">
-              <span class="icon-tools-2"></span> Development
+              <span class="icon-tools-2"></span> Html, Smarty
             </h6>
-            <div class="progress">
-              <div
-                class="progress-bar pb-dark"
-                aria-valuenow="60"
-                role="progressbar"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <span class="font-alt"></span>
-              </div>
-            </div>
             <h6 class="font-alt">
-              <span class="icon-strategy"></span> Branding
+              <span class="icon-tools-2"></span> Css, Scss, PostCss
             </h6>
-            <div class="progress">
-              <div
-                class="progress-bar pb-dark"
-                aria-valuenow="80"
-                role="progressbar"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <span class="font-alt"></span>
-              </div>
-            </div>
+
             <h6 class="font-alt">
-              <span class="icon-target"></span> Marketing
+              <span class="icon-tools-2"></span> JavaScript, VueJS, Jquery
             </h6>
-            <div class="progress">
-              <div
-                class="progress-bar pb-dark"
-                aria-valuenow="50"
-                role="progressbar"
-                aria-valuemin="0"
-                aria-valuemax="100"
-              >
-                <span class="font-alt"></span>
-              </div>
-            </div>
+
             <h6 class="font-alt">
-              <span class="icon-camera"></span> Photography
+              <span class="icon-tools-2"></span> Laravel, PHP
             </h6>
-            <div class="progress">
-              <div
-                class="progress-bar pb-dark"
-                aria-valuenow="90"
-                role="progressbar"
-                aria-valuemin="0"
-                aria-valuemax="100"
+            <h6 class="font-alt">
+              <span class="icon-tools-2"></span> Figma, Photoshop
+            </h6>
+          </div>
+        </div>
+        <br />
+        <div class="row">
+          <div class="col-sm-6">
+            <h2 class="product-title font-alt">Места работы</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <h5 class="font-alt">
+              <a target="_blank" href="https://fmedia-group.com/"
+                >Fmedia&nbsp;<i class="fa fa-fw">&#xf138;</i></a
               >
-                <span class="font-alt"></span>
-              </div>
+            </h5>
+            <h6 class="font-alt">Html - Верстальщик</h6>
+            <ul>
+              <li>
+                Верстка сайтов и&nbsp;страниц по&nbsp;макетам Figma/Photoshop
+              </li>
+              <li>Адаптивная кроссбраузерная семантическая верстка</li>
+              <li>Верстка с&nbsp;использованием БЭМ-методологии</li>
+              <li>Разработка и&nbsp;поддержка внутренних сервисов</li>
+              <li>
+                Оптимизация скорости загрузки сайтов в&nbsp;соответствии с
+                показателями PageSpeed Insights
+              </li>
+              <li>
+                Интеграция лендингов со&nbsp;сторонними партнерскими сетями
+              </li>
+              <li>Работа с&nbsp;задачами в&nbsp;Jira/Trello</li>
+            </ul>
+            <p>
+              В&nbsp;работе использовались: HTML, CSS, SСSS, JavaScript, PHP,
+              VUE, Gulp, Webpack, Figma, Photoshop, Jira, PageSpeed Insights,
+              Яндекс.Метрика, GitHub
+            </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <hr />
+            <h5 class="font-alt">
+              <a target="_blank" href="https://m18.ru/"
+                >M18&nbsp;<i class="fa fa-fw">&#xf138;</i></a
+              >
+            </h5>
+            <h6 class="font-alt">Frontend-разработчик</h6>
+            <ul>
+              <li>Верстка сайтов и&nbsp;страниц по&nbsp;макетам Figma</li>
+              <li>Адаптивная кроссбраузерная семантическая верстка</li>
+              <li>Верстка с&nbsp;использованием PostCss</li>
+              <li>Разработка и&nbsp;поддержка внутренних сервисов</li>
+            </ul>
+            <p>
+              В&nbsp;работе использовались: Smarty, CSS, POSTSS, JavaScript,
+              PHP, Gulp, Webpack, Figma, GitHub
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="font-alt mt-30">
+              <a class="btn btn-d btn-round" download="download" href="#"
+                ><i class="icon-download"></i>&nbsp;Скачать резюме</a
+              >
             </div>
           </div>
         </div>
       </div>
     </section>
     <hr class="divider-w" />
-    <section class="module" id="team">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-sm-offset-3">
-            <h2 class="module-title font-alt">Meet Our Team</h2>
-            <div class="module-subtitle font-serif">
-              A wonderful serenity has taken possession of my entire soul, like
-              these sweet mornings of spring which I enjoy with my whole heart.
-            </div>
-          </div>
-        </div>
-        <div class="row">
-          <div
-            class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3"
-            onclick="wow fadeInUp"
-          >
-            <div class="team-item">
-              <div class="team-image">
-                <img src="assets/images/team-1.jpg" alt="Member Photo" />
-                <div class="team-detail">
-                  <h5 class="font-alt">Hi all</h5>
-                  <p class="font-serif">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    lacus, a&amp;nbsp;iaculis diam.
-                  </p>
-                  <div class="team-social">
-                    <a href="#"><i class="fa fa-facebook"></i></a
-                    ><a href="#"><i class="fa fa-twitter"></i></a
-                    ><a href="#"><i class="fa fa-dribbble"></i></a
-                    ><a href="#"><i class="fa fa-skype"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="team-descr font-alt">
-                <div class="team-name">Jim Stone</div>
-                <div class="team-role">Art Director</div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3"
-            onclick="wow fadeInUp"
-          >
-            <div class="team-item">
-              <div class="team-image">
-                <img src="assets/images/team-2.jpg" alt="Member Photo" />
-                <div class="team-detail">
-                  <h5 class="font-alt">Good day</h5>
-                  <p class="font-serif">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    lacus, a&amp;nbsp;iaculis diam.
-                  </p>
-                  <div class="team-social">
-                    <a href="#"><i class="fa fa-facebook"></i></a
-                    ><a href="#"><i class="fa fa-twitter"></i></a
-                    ><a href="#"><i class="fa fa-dribbble"></i></a
-                    ><a href="#"><i class="fa fa-skype"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="team-descr font-alt">
-                <div class="team-name">Andy River</div>
-                <div class="team-role">Creative director</div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3"
-            onclick="wow fadeInUp"
-          >
-            <div class="team-item">
-              <div class="team-image">
-                <img src="assets/images/team-3.jpg" alt="Member Photo" />
-                <div class="team-detail">
-                  <h5 class="font-alt">Hello</h5>
-                  <p class="font-serif">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    lacus, a&amp;nbsp;iaculis diam.
-                  </p>
-                  <div class="team-social">
-                    <a href="#"><i class="fa fa-facebook"></i></a
-                    ><a href="#"><i class="fa fa-twitter"></i></a
-                    ><a href="#"><i class="fa fa-dribbble"></i></a
-                    ><a href="#"><i class="fa fa-skype"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="team-descr font-alt">
-                <div class="team-name">Adele Snow</div>
-                <div class="team-role">Account manager</div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="mb-sm-20 wow fadeInUp col-sm-6 col-md-3"
-            onclick="wow fadeInUp"
-          >
-            <div class="team-item">
-              <div class="team-image">
-                <img src="assets/images/team-4.jpg" alt="Member Photo" />
-                <div class="team-detail">
-                  <h5 class="font-alt">Yes, it's me</h5>
-                  <p class="font-serif">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit
-                    lacus, a&amp;nbsp;iaculis diam.
-                  </p>
-                  <div class="team-social">
-                    <a href="#"><i class="fa fa-facebook"></i></a
-                    ><a href="#"><i class="fa fa-twitter"></i></a
-                    ><a href="#"><i class="fa fa-dribbble"></i></a
-                    ><a href="#"><i class="fa fa-skype"></i></a>
-                  </div>
-                </div>
-              </div>
-              <div class="team-descr font-alt">
-                <div class="team-name">Dylan Woods</div>
-                <div class="team-role">Developer</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section
-      class="module bg-dark-60"
-      data-background="assets/images/section-6.jpg"
-    >
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="video-box">
-              <div class="video-box-icon">
-                <a
-                  class="video-pop-up"
-                  href="https://www.youtube.com/watch?v=TTxZj3DZiIM"
-                  ><span class="icon-video"></span
-                ></a>
-              </div>
-              <div class="video-title font-alt">Presentation</div>
-              <div class="video-subtitle font-alt">
-                Watch the video about our new products
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
   </layout>
 </template>
 
 <script>
 import Projects from "./Components/Projects.vue";
 import Layout from "../Shared/Layout.vue";
+import { Head } from "@inertiajs/vue3";
+import FirstScreen from "./Components/FirstScreen.vue";
 
 export default {
   name: "About",
   props: {
     title: String,
+    page: Array,
   },
   layout: Layout,
   components: {
     Projects,
+    Head,
+    FirstScreen,
   },
   mounted() {
     this.getBackgroundImage();
