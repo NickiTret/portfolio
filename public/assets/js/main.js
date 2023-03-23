@@ -442,7 +442,7 @@
          Working Contact Form
          ================================================================*/
 
-         jQuery("form").submit(function() { // Событие отправки с формы
+         jQuery("#contactForm").submit(function() { // Событие отправки с формы
             var form_data = jQuery(this).serialize(); // Собираем данные из полей
             jQuery.ajax({
                 type: "POST", // Метод отправки
@@ -452,7 +452,7 @@
                     title: "Спасибо за заявку!",
                     type: "success",
                     showConfirmButton: false,
-                    timer: 2000
+                    timer: 2000,
                 })
             });
             $(this).find('input, textarea').prop('disabled', true);
