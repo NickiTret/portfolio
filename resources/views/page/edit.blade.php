@@ -38,7 +38,7 @@
                         </div>
                         <div class="form-group">
                             <div class="custom-file">
-                                <input type="file" class="custom-file-input" name="images_src" id="images_src">
+                                <input type="file" value="{{ $page->images_src }}" class="custom-file-input" name="images_src" id="images_src">
                                 <label class="custom-file-label" for="images_src">Выбрать</label>
                             </div>
                         </div>
