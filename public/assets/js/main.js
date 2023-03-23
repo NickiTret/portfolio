@@ -446,7 +446,7 @@
             var form_data = jQuery(this).serialize(); // Собираем данные из полей
             jQuery.ajax({
                 type: "POST", // Метод отправки
-                url: "/tel.php", // Путь к PHP обработчику sendform.php
+                url: "tel.php", // Путь к PHP обработчику sendform.php
                 data: form_data,
                 success: swal({
                     title: "Спасибо за заявку!",
