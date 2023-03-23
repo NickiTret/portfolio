@@ -448,12 +448,7 @@
                 type: "POST", // Метод отправки
                 url: "tel.php", // Путь к PHP обработчику sendform.php
                 data: form_data,
-                success: swal({
-                    title: "Спасибо за заявку!",
-                    type: "success",
-                    showConfirmButton: false,
-                    timer: 2000,
-                })
+                success: console.log('good')
             });
             $(this).find('input, textarea').prop('disabled', true);
             event.preventDefault();
