@@ -10,7 +10,7 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
     <meta name="description" content="Сайты на заказ, сайт - портфолио frontend-разработчика"/>
-    <meta name="keywords" content="Разработка и создание сайтов, верстка сайтов, frontend - разработка, frontend - разработчик, красивые сайты." />
+    <meta name="keywords" content="Разработка и создание сайтов, вёрстка сайтов, frontend - разработка, frontend - разработчик, красивые сайты." />
     <link href="/assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
