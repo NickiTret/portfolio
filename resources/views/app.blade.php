@@ -1,14 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     @vite('resources/js/app.js')
     @inertiaHead
-
+    @routes
+    <link rel="icon" href="favicon.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-
+    <meta name="description" content="Сайты на заказ, сайт - портфолио frontend-разработчика"/>
+    <meta name="keywords" content="Разработка и создание сайтов, верстка сайтов, frontend - разработка, frontend - разработчик, красивые сайты." />
     <link href="/assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">

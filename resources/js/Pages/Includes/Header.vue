@@ -14,7 +14,7 @@
           <span class="sr-only">Выбор навигации</span
           ><span class="icon-bar"></span><span class="icon-bar"></span
           ><span class="icon-bar"></span></button
-        ><Link class="navbar-brand" href="/">NickWeb</Link>
+        ><Link class="navbar-brand" :href="route('home')">NickWeb</Link>
       </div>
       <div class="collapse navbar-collapse" id="custom-collapse">
         <ul class="nav navbar-nav navbar-right">

@@ -28,6 +28,11 @@ class LoginController extends Controller
      */
     protected $redirectTo = RouteServiceProvider::HOME;
 
+    public function __invoke()
+    {
+        view('auth.login');
+    }
+
     /**
      * Create a new controller instance.
      *
@@ -37,4 +42,6 @@ class LoginController extends Controller
     {
         $this->middleware('guest')->except('logout');
     }
+
+
 }

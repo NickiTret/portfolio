@@ -1,7 +1,7 @@
 <template>
-    <Head>
-        <title> NickWeb | {{ title }}</title>
-    </Head>
+  <Head>
+    <title>NickWeb | {{ title }}</title>
+  </Head>
   <layout>
     <FirstScreen :page="page" />
     <section class="module">
@@ -10,10 +10,7 @@
           <div class="col-sm-6">
             <h4 class="font-alt">Напишите мне</h4>
             <br />
-            <form
-              id="contactForm"
-              role="form"
-            >
+            <form id="contactForm" role="form">
               <div class="form-group">
                 <label class="sr-only" for="name">Имя Фамилия</label>
                 <input
@@ -59,7 +56,7 @@
                   rows="7"
                   id="message"
                   name="message"
-                  placeholder="Сообщение"
+                  placeholder="Напишите какой сайт вы бы хотели, дизайн и функциональность и я обязательно свяжусь с вами."
                   required="required"
                   data-validation-required-message="Сообщение"
                 ></textarea>
@@ -79,12 +76,6 @@
           </div>
           <br />
           <div class="col-sm-6">
-            <h4 class="font-alt">Оставьте сообщение</h4>
-            <br />
-            <p>
-                Напишите какой сайт вы&nbsp;бы хотели, дизайн и&nbsp;функциональность и&nbsp;я&nbsp;обязательно свяжусь с&nbsp;вами.
-            </p>
-            <hr />
             <h4 class="font-alt">Режим работы</h4>
             <br />
             <ul class="list-unstyled">
@@ -92,6 +83,10 @@
               <li>сб, вс: 10:00 до 14:00</li>
             </ul>
             <hr />
+            <div class="mt-xs-60">
+              <h3 class="alt-features-title font-alt">Контакты</h3>
+              Email: <a href="mailto:tretjakov.nickit@yandex.ru">tretjakov.nickit@yandex.ru</a><br />Phone: <a href="tel:+79218911907">+79218911907</a><br />Telegram: <a href="https://t.me/niktret">niktret</a><br />VK: <a href="https://vk.com/id119029110">Никита Третьяков</a>
+            </div>
           </div>
         </div>
       </div>
@@ -110,14 +105,13 @@ export default {
   props: {
     title: String,
     page: Array,
-    create_url: String
+    create_url: String,
   },
   layout: Layout,
   components: {
     Projects,
     Head,
-    FirstScreen
-
+    FirstScreen,
   },
   mounted() {
     this.getBackgroundImage();

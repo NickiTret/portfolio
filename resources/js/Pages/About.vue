@@ -10,31 +10,41 @@
         <div class="row">
           <div class="col-sm-6">
             <h2 class="product-title font-alt">Обо мне</h2>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-sm-6">
             <ul>
+              <li>Третьяков Никита Вадимович</li>
+              <li>Возраст: 30 лет</li>
+              <li>Санкт-Петербург</li>
               <li>
-                Образование средне&nbsp;&mdash; специальное, специальность
-                веб-дизайн, проходил курсы повышения квалификации,
-                и&nbsp;проходил обучение в&nbsp;Skillbox курс
-                &laquo;Frontend-разработчик&raquo;
+                Образование средне&nbsp;&mdash; специальное, колледж Дизайна при
+                КБГУ им. Бербекова, по направлению &laquo;Графический дизайн,
+                веб-дизайн&raquo; 2012 г.
               </li>
               <li>
-                Ответственно подхожу к&nbsp;задачам и&nbsp;их&nbsp;решениям,
-                проактивен
+                Дополнительное образование, частное образовательное учереждение
+                &laquo;Международная школа дизайна и информационных
+                технологий&raquo;, по курсу &laquo;Программирование и дизайн Web
+                - сайтов&raquo; 2013 г.
               </li>
               <li>
-                <a
-                  target="_blank"
-                  href="https://github.com/NickiTret?tab=repositories"
-                >
-                  GitHub</a
-                >
-                здесь примеры моего кода
+                Онлайн платформа Skillbox курс
+                &laquo;Frontend-разработчик&raquo; 2021 г.
+              </li>
+              <li>
+                Выполняю работы по
+                <ul>
+                  <li>верстки сайтов по БЭМ-методологии в том числе</li>
+                  <li>
+                    оптимизации скорости загрузки сайтов (html, js, css,
+                    изображения)
+                  </li>
+                  <li>выгрузки сайта на хостинг</li>
+                  <li>умею разбираться с чужим кодом</li>
+                </ul>
               </li>
             </ul>
+          </div>
+          <div class="col-sm-6">
+            <img width="400" src="/assets/image/photo.jpg" alt="Photo" />
           </div>
         </div>
         <div class="row">
@@ -60,6 +70,15 @@
             </h6>
             <h6 class="font-alt">
               <span class="icon-tools-2"></span> Figma, Photoshop
+            </h6>
+            <h6>
+              <a
+                target="_blank"
+                href="https://github.com/NickiTret?tab=repositories"
+              >
+                GitHub</a
+              >
+              здесь примеры моего кода
             </h6>
           </div>
         </div>
@@ -113,7 +132,9 @@
             <ul>
               <li>Верстка сайтов и&nbsp;страниц по&nbsp;макетам Figma</li>
               <li>Адаптивная кроссбраузерная семантическая верстка</li>
-              <li>Верстка с&nbsp;использованием PostCss</li>
+              <li>
+                Верстка с&nbsp;использованием Smarty, PHP, JavaScript, PostCss
+              </li>
               <li>Разработка и&nbsp;поддержка внутренних сервисов</li>
             </ul>
             <p>
