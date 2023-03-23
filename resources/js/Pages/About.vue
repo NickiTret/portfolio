@@ -146,7 +146,7 @@
         <div class="row">
           <div class="col-sm-6">
             <div class="font-alt mt-30">
-              <a class="btn btn-d btn-round" download="download" href="#"
+              <a class="btn btn-d btn-round" download="download" href="/res.pdf"
                 ><i class="icon-download"></i>&nbsp;Скачать резюме</a
               >
             </div>
