@@ -2944,3 +2944,11 @@ Google map
     width: 100%;
   }
 }
+
+
+
+/* my styles */
+
+.post-thumbnail > a > img {
+    height: 100%;
+}
