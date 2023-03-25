@@ -30,35 +30,27 @@
     </section>
 
     <hr class="divider-w" />
-    <section class="module">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-6 col-sm-offset-3">
-            <h2 class="module-title font-alt">Другие проекты</h2>
-          </div>
-        </div>
-        <ul
-          class="works-grid works-grid-gut works-grid-3 works-hover-w"
-          id="works-grid"
-        >
-          <li
-            v-for="item in projects"
-            :key="item.id"
-            class="work-item illustration webdesign"
+
+    <section class="module-medium" id="demos">
+    <div class="container">
+      <div class="row multi-columns-row">
+        <div v-for="item in projects"
+          :key="item.id" class="col-md-4 col-sm-6 col-xs-12">
+          <Link
+            class="content-box"
+            :href="'projects/' + item.id">
+            <div class="content-box-image">
+                <img
+                :src="'/storage/' + item.image_src"
+                :alt="item.title"
+              />
+            </div>
+            <h3 class="content-box-title font-serif">{{ item.title }}</h3></Link
           >
-            <Link :href="item.id">
-              <div class="work-image">
-                <img :src="'/storage/' + item.image_src" :alt="item.title" />
-              </div>
-              <div class="work-caption font-alt">
-                <h3 class="work-title">{{ item.title }}</h3>
-                <div class="work-descr">{{ item.description }}</div>
-              </div></Link
-            >
-          </li>
-        </ul>
+        </div>
       </div>
-    </section>
+    </div>
+  </section>
   </layout>
 </template>
 
