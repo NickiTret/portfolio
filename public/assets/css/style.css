@@ -2951,4 +2951,5 @@ Google map
 
 .post-thumbnail > a > img {
     height: 100%;
+    object-fit: cover;
 }
