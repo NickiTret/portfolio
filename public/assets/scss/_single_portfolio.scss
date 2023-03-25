@@ -1,5 +1,9 @@
 .work-details {
 	margin: 0 0 20px;
+
+    @media (max-width: 768px) {
+        margin: 20px 0 20px;
+    }
 }
 
 .work-details-title {
@@ -14,7 +18,7 @@
 }
 
 .work-details ul > li {
-	border-bottom: 1px dotted #c2c2c2;
+	// border-bottom: 1px dotted #c2c2c2;
 	padding: 0 0 5px;
 	margin: 0 0 5px;
 }

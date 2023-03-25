@@ -52,8 +52,12 @@ export default {
     Link,
     Head,
   },
+  mounted() {
+    $(document).trigger("chenge");
+  },
   created() {
     this.logCon();
+    $(document).trigger("chenge");
   },
   methods: {
     logCon() {

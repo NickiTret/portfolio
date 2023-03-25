@@ -276,22 +276,22 @@
             });
         });
 
-        $('#filters a').click(function() {
-            $('#filters .current').removeClass('current');
-            $(this).addClass('current');
-            var selector = $(this).attr('data-filter');
+        // $('#filters a').click(function() {
+        //     $('#filters .current').removeClass('current');
+        //     $(this).addClass('current');
+        //     var selector = $(this).attr('data-filter');
 
-            worksgrid.isotope({
-                filter: selector,
-                animationOptions: {
-                    duration: 750,
-                    easing: 'linear',
-                    queue: false
-                }
-            });
+        //     worksgrid.isotope({
+        //         filter: selector,
+        //         animationOptions: {
+        //             duration: 750,
+        //             easing: 'linear',
+        //             queue: false
+        //         }
+        //     });
 
-            return false;
-        });
+        //     return false;
+        // });
 
 
         /* ---------------------------------------------- /*

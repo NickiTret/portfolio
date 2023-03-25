@@ -2010,6 +2010,13 @@ Google map
   margin: 0 0 20px;
 }
 
+@media (max-width: 768px) {
+
+    .work-details {
+        margin: 20px 0 20px;
+      }
+}
+
 .work-details-title {
   color: #111;
   margin: 0 0 20px;
@@ -2022,7 +2029,7 @@ Google map
 }
 
 .work-details ul > li {
-  border-bottom: 1px dotted #c2c2c2;
+  /* border-bottom: 1px dotted #c2c2c2; */
   padding: 0 0 5px;
   margin: 0 0 5px;
 }
