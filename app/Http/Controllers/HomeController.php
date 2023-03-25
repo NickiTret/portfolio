@@ -18,7 +18,7 @@ class HomeController extends Controller
             'url' => '/',
             'links' => Page::all(),
             'page' => Page::where('link', '/')->first(),
-            'projects' => Project::all(),
+            'projects' => Project::inRandomOrder()->get(),
             'socials' => Social::all(),
         ]);
     }
@@ -53,7 +53,7 @@ class HomeController extends Controller
             'url' => "/projects/$id",
             'links' => Page::all(),
             'project' => Project::where('id', $id)->first(),
-            'projects' => Project::all(),
+            'projects' => Project::where('id', '!=' , $id)->orderBy('id', 'desc')->get(),
             'socials' => Social::all(),
         ]);
     }
