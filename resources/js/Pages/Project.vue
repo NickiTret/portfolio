@@ -38,7 +38,7 @@
           :key="item.id" class="col-md-4 col-sm-6 col-xs-12">
           <Link
             class="content-box"
-            :href="'projects/' + item.id">
+            :href="item.id">
             <div class="content-box-image">
                 <img
                 :src="'/storage/' + item.image_src"
