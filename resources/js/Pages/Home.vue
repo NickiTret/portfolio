@@ -10,7 +10,7 @@
           <div class="col-sm-8 col-sm-offset-2">
             <h2 class="module-title font-alt">ДОБРО ПОЖАЛОВАТЬ НА&nbsp;МОЙ САЙТ&nbsp;&mdash; ПОРТФОЛИО</h2>
             <div class="module-subtitle font-serif large-text">
-                Ниже вы&nbsp;можете ознакомиться с&nbsp;моим портфолио. Узнать о&nbsp;моем опыте и&nbsp;стеке технлогии вы&nbsp;можете на&nbsp;странице <Link style="text-decoration: underline;" :href="route('about')">&laquo;Обо мне&raquo;</Link>. Оставить заявку или задать свой вопрос на&nbsp;странице <Link style="text-decoration: underline;" :href="route('contact')">&laquo;Контакты&raquo;</Link>.
+                Ниже вы&nbsp;можете ознакомиться с&nbsp;моим портфолио. Узнать о&nbsp;моем опыте и&nbsp;стеке технологии вы&nbsp;можете на&nbsp;странице <Link style="text-decoration: underline;" :href="route('about')">&laquo;Обо мне&raquo;</Link>. Оставить заявку или задать свой вопрос на&nbsp;странице <Link style="text-decoration: underline;" :href="route('contact')">&laquo;Контакты&raquo;</Link>.
             </div>
           </div>
         </div>
