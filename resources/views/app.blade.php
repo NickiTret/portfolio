@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="yandex-verification" content="eb4921f405093029" />
     @vite('resources/js/app.js')
     @inertiaHead
     @routes
@@ -30,7 +31,6 @@
 
 <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
     <main>
-        <meta name="yandex-verification" content="eb4921f405093029" />
         @inertia
         <script src="/assets/lib/jquery/dist/jquery.js"></script>
         <script src="/assets/lib/bootstrap/dist/js/bootstrap.min.js"></script>
