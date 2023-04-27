@@ -31,7 +31,6 @@ export default {
         module.forEach( (element) => {
             if (element.getAttribute('data-background')) {
                 element.style.backgroundImage = `url('${element.getAttribute('data-background')}')`;
-                console.log(element);
             }
         } );
     }
