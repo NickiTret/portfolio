@@ -61,7 +61,7 @@ export default {
   },
   methods: {
     logCon() {
-      console.log(this.page);
+      // console.log(this.page);
     },
   },
 };

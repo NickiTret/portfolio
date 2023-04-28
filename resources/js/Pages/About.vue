@@ -186,7 +186,7 @@ export default {
           element.style.backgroundImage = `url('${element.getAttribute(
             "data-background"
           )}')`;
-          console.log(element);
+          // console.log(element);
         }
       });
     },

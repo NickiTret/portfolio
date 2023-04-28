@@ -10,7 +10,7 @@
           <div class="col-sm-6">
             <h4 class="font-alt">Напишите мне</h4>
             <br />
-            <form id="contactForm">
+            <form id="contactForm" action="post">
               <div class="form-group">
                 <label class="sr-only" for="name">Имя Фамилия</label>
                 <input
