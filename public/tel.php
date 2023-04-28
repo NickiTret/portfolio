@@ -5,7 +5,7 @@ $phone = $_POST['phone']; // Берём данные из input c атрибут
 $email = $_POST['email']; // Берём данные из input c атрибутом name="mail"
 $message = $_POST['message']; // Берём данные из input c атрибутом name="mail"
 
-$token = "5704756426:AAFTxQCIjFE7KQM1TqCHYpYfp1xugt1m2ns"; // Тут пишем токен
+$token = "5704756426:AAFTxQCIjFE7KQM1TqCHYpYfp1xugt1m2ns";
 $chat_id = "-751420070"; // Тут пишем ID группы, куда будут отправляться сообщения
 $sitename = "nickdesignweb.ru"; //Указываем название сайта
 
