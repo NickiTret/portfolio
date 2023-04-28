@@ -448,9 +448,9 @@
                 type: "POST", // Метод отправки
                 url: "tel.php", // Путь к PHP обработчику sendform.php
                 data: form_data,
-                success: function() {
+                success: function(data) {
                     jQuery("#contactForm button").prop('disabled', true).text('Сообщение отправлено')
-                    console.log(url)
+                    console.log(data)
                 } 
                 // success: console.log(url)
 
