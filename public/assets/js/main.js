@@ -448,11 +448,13 @@
                 method: "POST", // Метод отправки
                 url: "tel.php", // Путь к PHP обработчику sendform.php
                 data: form_data,
-                success: jQuery("#contactForm button").prop('disabled', true).text('Сообщение отправлено'),
+                // success: jQuery("#contactForm button").prop('disabled', true).text('Сообщение отправлено'),
+                success: console.log(url)
 
             });
             $(this).find('input, textarea').prop('disabled', true);
             event.preventDefault();
+            console;
         });
     });
 })(jQuery);
