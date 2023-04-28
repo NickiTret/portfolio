@@ -446,14 +446,13 @@
             var form_data = jQuery(this).serialize(); // Собираем данные из полей
             jQuery.ajax({
                 type: "POST", // Метод отправки
-                url: "tel.php", // Путь к PHP обработчику sendform.php
+                url: "../../tel.php", // Путь к PHP обработчику sendform.php
                 data: form_data,
                 success: jQuery("#contactForm button").prop('disabled', true).text('Сообщение отправлено'),
 
             });
             $(this).find('input, textarea').prop('disabled', true);
             event.preventDefault();
-            console.log(form_data);
         });
     });
 })(jQuery);
