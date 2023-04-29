@@ -24,7 +24,7 @@ $arr = array(
 );
 
 foreach($arr as $key => $value) {
-  $txt .= "<b>".$key."</b> ".$value."%0A";
+  $txt .= $key."-->".$value."%0A";
 };
 
 // токен бота
