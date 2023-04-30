@@ -444,16 +444,25 @@
 
          jQuery("#contactForm").submit(function() { // Событие отправки с формы
             var form_data = jQuery(this).serialize(); // Собираем данные из полей
-            jQuery.ajax({
-                type: "POST", // Метод отправки
-                url: "./tel.php", // Путь к PHP обработчику sendform.php
-                data: form_data,
-                success: jQuery("#contactForm button").prop('disabled', true).text('Сообщение отправлено'),
-                // success: console.log(url)
+            var inputSecret = jQuery('#secret');
 
-            });
-            $(this).find('input, textarea').prop('disabled', true);
-            event.preventDefault();
+            inputSecret.val('secretform');
+            
+            if(inputSecret != '') {
+                jQuery.ajax({
+                    type: "POST", // Метод отправки
+                    url: "./tel.php", // Путь к PHP обработчику sendform.php
+                    data: form_data,
+                    success: jQuery("#contactForm button").prop('disabled', true).text('Сообщение отправлено'),
+                    // success: console.log(url)
+    
+                });
+                $(this).find('input, textarea').prop('disabled', true);
+                event.preventDefault();
+            } else {
+                return;
+            }
+
         });
     });
 })(jQuery);

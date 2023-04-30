@@ -48,6 +48,13 @@
                   required="required"
                   data-validation-required-message="Мобильный телефон"
                 />
+                <input
+                  class="form-control"
+                  type="hidden"
+                  id="secret"
+                  name="secret"
+                  value=""
+                />
                 <p class="help-block text-danger"></p>
               </div>
               <div class="form-group">
