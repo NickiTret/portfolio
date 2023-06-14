@@ -13,7 +13,8 @@
     <meta name="theme-color" content="#ffffff">
     <meta name="title" content="NickWeb - портфолио frontend-разработчика" />
     <meta name="description" content="Сайты на заказ, сайт - портфолио frontend-разработчика" />
-    <meta name="keywords" content="Разработка и создание сайтов, верстка сайтов, frontend - разработка, frontend - разработчик, красивые сайты." />
+    <meta name="keywords"
+        content="Разработка и создание сайтов, верстка сайтов, frontend - разработка, frontend - разработчик, красивые сайты." />
     <link href="/assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Volkhov:400i" rel="stylesheet">
@@ -31,6 +32,15 @@
 </head>
 
 <body data-spy="scroll" data-target=".onpage-navigation" data-offset="60">
+    <!-- Yandex.RTB R-A-2349465-1 -->
+    <script>
+        window.yaContextCb.push(() => {
+            Ya.Context.AdvManager.render({
+                "blockId": "R-A-2349465-1",
+                "type": "floorAd"
+            })
+        })
+    </script>
     <main>
         @inertia
         <script src="/assets/lib/jquery/dist/jquery.js"></script>
@@ -75,6 +85,18 @@
         </div>
     </noscript>
     <!-- /Yandex.Metrika counter -->
+    <!--LiveInternet counter-->
+    <script>
+        (function(d, s) {
+            d.getElementById("licntDEA0").src =
+                "https://counter.yadro.ru/hit?t26.6;r" + escape(d.referrer) +
+                ((typeof(s) == "undefined") ? "" : ";s" + s.width + "*" + s.height + "*" +
+                    (s.colorDepth ? s.colorDepth : s.pixelDepth)) + ";u" + escape(d.URL) +
+                ";h" + escape(d.title.substring(0, 150)) + ";" + Math.random()
+        })
+        (document, screen)
+    </script>
+    <!--/LiveInternet-->
 </body>
 
 </html>

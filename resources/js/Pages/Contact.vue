@@ -4,7 +4,7 @@
   </Head>
   <layout>
     <FirstScreen :page="page" />
-    <section class="module">
+    <section class="module" id="form">
       <div class="container">
         <div class="row">
           <div class="col-sm-6">
