@@ -1,6 +1,6 @@
 <template>
   <Head>
-    <title>NickWeb - Сайт портфолио - Создание и поддержка сайтов СПб | {{ title }}</title>
+    <title>NickWeb - Создание и поддержка сайтов СПб | {{ title }}</title>
   </Head>
   <layout :links="links" :socials="socials">
     <FirstScreen :page="page" />
