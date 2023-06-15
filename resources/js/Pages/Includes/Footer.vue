@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-sm-8 col-sm-offset-2">
-          <!-- Yandex.RTB R-A-2349465-2 -->
-          <div :adsBlock="adsBlock" id="yandex_rtb_R-A-2349465-2"></div>
+          <!-- Yandex.RTB R-A-2349465-2
+          <div :adsBlock="adsBlock" id="yandex_rtb_R-A-2349465-2"></div> -->
         </div>
       </div>
     </div>
@@ -52,14 +52,7 @@ export default {
     socials: Array,
   },
   methods: {
-    adsBlock() {
-window.yaContextCb.push(()=>{
-	Ya.Context.AdvManager.renderFeed({
-		"blockId": "R-A-2349465-2",
-		"renderTo": "yandex_rtb_R-A-2349465-2"
-	})
-})
-    }
+
   }
 };
 </script>

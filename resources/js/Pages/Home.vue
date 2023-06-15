@@ -8,9 +8,9 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-sm-offset-2">
-            <h3 class="module-title font-alt">
+            <h1 class="module-title font-alt">
               Разработка и&nbsp;поддержка сайтов
-            </h3>
+            </h1>
             <ul class="module-list">
               <li class="module-list__item">
                 <h3 class="module-list__title">Landing page</h3>

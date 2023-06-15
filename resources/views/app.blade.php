@@ -11,8 +11,8 @@
     <link rel="icon" href="favicon.png">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="theme-color" content="#ffffff">
-    <meta name="title" content="NickWeb - портфолио frontend-разработчика" />
-    <meta name="description" content="Сайты на заказ, сайт - портфолио frontend-разработчика" />
+    <meta name="title" content="NickWeb - Сайт портфолио - Создание сайтов - Услуги по разработке сайтов" />
+    <meta name="description" content="Сайты на заказ. Сколько стоит сделать продающий сайт? Не дорого, а выгодно! Занимаюсь разработкой и оптимизацией сайтов, интернет-магазинов, лендингов более 3 лет. Предоставляю услуги по технической поддержке и обслуживанию сайтов на заказ. Сайт - портфолио frontend-разработчика" />
     <meta name="keywords"
         content="Разработка и создание сайтов, верстка сайтов, frontend - разработка, frontend - разработчик, красивые сайты." />
     <link href="/assets/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
